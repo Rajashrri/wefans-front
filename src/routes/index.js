@@ -107,6 +107,9 @@ import ForgetPwd1 from "../pages/AuthenticationInner/ForgetPassword";
 import Professionallist from "../pages/ProfessionalMaster/Professionallist";
 import AddProfessional from "../pages/ProfessionalMaster/AddProfessional";
 import UpdateProfessional from "../pages/ProfessionalMaster/UpdateProfessional";
+import Timelinelist from "../pages/Timeline/Timelinelist";
+import AddTimeline from "../pages/Timeline/AddTimeline";
+import UpdateTimeline from "../pages/Timeline/UpdateTimeline";
 
 import LanguageList from "../pages/LanguageMaster/LanguageList";
 import TriviaTypesList from "../pages/TriviaTypes/TriviaTypesList";
@@ -225,6 +228,10 @@ const authProtectedRoutes = [
     { path: "/celebrity-list", component: <CelebratyList /> },
   { path: "/add-celebrity", component: <AddCelebraty /> },
   { path: "/update-celebrity/:id", component: <UpdateCelebraty /> },
+
+ { path: "/timeline-list", component: <Timelinelist /> },
+  { path: "/add-timeline", component: <AddTimeline /> },
+  { path: "/update-timeline/:id", component: <UpdateTimeline /> },
 
 
   //employee-list
